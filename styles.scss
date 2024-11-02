@@ -24,7 +24,7 @@ nav > ul {
     list-style: none;
     font-size: 1.4rem;
     margin: 0;
-    padding: 15px;
+    padding: 5px 10px 10px 10px;
     overflow: hidden;
     background-color: $colour1;
 }
@@ -134,7 +134,7 @@ main {
 .content {
     display: grid;
     grid-template-columns: 2fr 4fr;
-    grid-template-rows: repeat(5, 4fr);
+    grid-template-rows: 2.75fr repeat(4, 3fr);
     gap: 2rem;
     width: 85vw;
     margin-top: 1.5rem;
@@ -190,5 +190,25 @@ h3 {
 }
 
 .skillList {
+    font-size: 1.2rem;
+}
+
+.date {
+    float: right;
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.experience ul > li {
     font-size: 1.2rem;
 }
