@@ -74,6 +74,10 @@ li a:hover {
     opacity: 1;
   }
 }
+img {
+  height: 120px;
+}
+
 main {
   display: flex;
   flex-direction: column;
