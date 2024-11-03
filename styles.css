@@ -1,7 +1,6 @@
 body {
   background-color: #F6FCDF;
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   margin: 0px;
 }
@@ -90,10 +89,10 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: 161.25;
+  max-height: 10rem;
   width: -moz-max-content;
   width: max-content;
-  padding: 40px;
+  padding: 2.5rem;
   padding-left: 13rem;
   padding-right: 13rem;
   color: #FFFFFF;
@@ -197,8 +196,34 @@ h5 {
 }
 
 footer {
-  height: 10rem;
+  height: 16rem;
   width: 100vw;
   background-color: #1A1A19;
   margin: 0;
+}
+
+.footer {
+  height: 13.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 950px) {
+  .content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 2rem;
+    width: 85vw;
+    margin-top: 1.5rem;
+    grid-template-areas: "prof" "contact" "skills" "experience" "lang" "education";
+  }
 }/*# sourceMappingURL=styles.css.map */
