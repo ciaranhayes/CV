@@ -232,7 +232,7 @@ footer {
     height: 90px;
   }
 }
-@media only screen and (max-width: 950px) and (min-width: 801px){
+@media only screen and (max-width: 950px) {
   .content {
     display: grid;
     grid-template-columns: auto;
@@ -246,7 +246,7 @@ footer {
     height: 80px;
   }
 }
-@media only screen and (max-width: 800px) and (min-width: 701px) {
+@media only screen and (max-width: 800px) {
   .footer {
     display: grid;
     grid-template-columns: auto auto;
@@ -305,6 +305,7 @@ footer {
     }
   }
   .content {
+    width: -moz-min-content;
     width: min-content;
     display: flex;
     flex-direction: column;

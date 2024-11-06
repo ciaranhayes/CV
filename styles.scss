@@ -245,7 +245,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 950px) and (min-width: 801px) {
+@media only screen and (max-width: 950px) {
     .content{
         display: grid;
         grid-template-columns: auto;
@@ -269,7 +269,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 800px min-width: 701px) {
+@media only screen and (max-width: 800px) {
     .footer{
         display:grid;
         grid-template-columns: auto auto;
@@ -337,6 +337,8 @@ footer {
 
     .content {
         width: min-content;
+        display: flex;
+        flex-direction: column;
     }
     
     @keyframes titleEntrance {
